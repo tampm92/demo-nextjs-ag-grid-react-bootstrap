@@ -1,0 +1,31 @@
+.dropdown-menu{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 10rem;
+    padding: .5rem 0;
+    margin: .125rem 0 0;
+    font-size: .825rem;
+    color: #6c757d;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: .2rem;
+    
+    .dropdown-item {
+        transition: background .1s ease-in-out,color .1s ease-in-out;
+
+        &:hover {
+            color: #16181b;
+            text-decoration: none;
+            background-color: #f4f7f9;
+        }
+    }
+}
+
+

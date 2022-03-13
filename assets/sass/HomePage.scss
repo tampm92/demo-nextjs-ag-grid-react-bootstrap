@@ -1,0 +1,57 @@
+.cover {
+  background-image: url(/img/bg.jpg);
+  background-position: center !important;
+  background-size: cover !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid #fff;
+}
+a {
+  i {
+    color: #fff;
+    font-size: 1.5rem;
+  }
+}
+a:hover {
+  color: rgb(45, 156, 70) !important;
+  i {
+    color: rgb(45, 156, 70) !important;
+  }
+}
+.text-l {
+  text-align: left;
+}
+.text-lg {
+  font-size: 1.5rem;
+}
+
+.text-white {
+  color: #fff !important;
+}
+
+.opacity-70 {
+  opacity: 0.7 !important;
+}
+
+.opacity-80 {
+  opacity: 0.8 !important;
+}
+
+.opacity-90 {
+  opacity: 0.9 !important;
+}
+
+.fw-light {
+  font-weight: 300 !important;
+}
+
+.fw-medium {
+  font-weight: 500 !important;
+}

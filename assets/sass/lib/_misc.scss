@@ -1,0 +1,9 @@
+/*     General overwrite     */
+a{
+  color: $info-color;
+
+  &:hover, &:focus{
+     color: $info-states-color;
+     text-decoration: none;
+  }
+}
