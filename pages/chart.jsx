@@ -3,7 +3,6 @@ import { Container, Row, Col } from "react-bootstrap";
 import { AgGridReact } from "ag-grid-react";
 
 import "ag-grid-enterprise";
-import "@/assets/sass/HomePage.scss";
 
 const getRowData = () => {
   return [

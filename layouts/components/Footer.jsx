@@ -9,7 +9,7 @@ class Footer extends Component {
           <nav className="float-left">
             <ul>
               <li>
-                <a href="https://github.com/tampm92/demo-ag-grid-nextjs-react-bootstrap" target="_blank">Git</a>
+                <a href="https://github.com/tampm92/demo-nextjs-ag-grid-react-bootstrap" target="_blank">Git</a>
               </li>
               <li>
                 <a href="https://tampm.com" target="_blank">My Website</a>

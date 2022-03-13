@@ -3,8 +3,6 @@ import { Container, Row, Col } from "react-bootstrap";
 import { AgGridReact } from "ag-grid-react";
 import { ClientSideRowModelModule } from "@ag-grid-community/client-side-row-model";
 
-import "@/assets/sass/HomePage.scss";
-
 const HomePage = () => {
   const [gridApi, setGridApi] = useState(null);
   const [rowData, setRowData] = useState(null);

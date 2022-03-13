@@ -4,7 +4,6 @@ import { AgGridReact } from "ag-grid-react";
 import FakeServer from "@/shared/FakeServer";
 
 import "ag-grid-enterprise";
-import "@/assets/sass/UserPage.scss";
 
 var fakeServer = new FakeServer();
 
